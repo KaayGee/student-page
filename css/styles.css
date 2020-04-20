@@ -1,0 +1,170 @@
+.container{
+    width: 100%;
+    height: 100%;
+}
+.content{
+    width: 81%;
+    height: 100%;
+   margin: auto;
+}
+/* Control styling starts here */
+
+.controls{
+    display: flex;
+    justify-content: space-between;
+}
+
+.controls .left{
+    width: 70%;
+    display: flex;
+}
+
+.controls .control-name{
+    width: 187px;
+    height: 56px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin-left: 0px;
+    padding: 18px 30px;
+    border: 1.0166px solid #004AB8;
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+.control-name::placeholder{
+    color: #004AB8;
+}
+.control-name:focus{
+    outline: none;
+}
+
+.controls .control-location{
+    width: 187px;
+    height: 56px;   
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin-left: 18px;
+    padding: 0px 30px;
+    border: 1.0166px solid #004AB8;
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+.control-location::placeholder{
+    color: #004AB8;
+}
+.control-location:focus{
+    outline: none;
+}
+#location{
+    width: 187px;
+    height: 56px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin-left: 18px;
+    padding: 0px 30px;
+    background-color: #fff;
+    color: #004AB8;
+    border: 1.0166px solid #004AB8;
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+#location:focus{
+    outline: none;
+}
+/* Control styling ends here */
+
+/* Sections 1-5 styling start here */
+.detail-1{
+    max-width: 100%;
+    box-sizing: border-box;
+    /* height:90px; */
+    width: 1189px;
+    height: 122px;  
+    background: #EBF3FF;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 15px;
+    margin-top: 18px;
+} 
+
+.detail-1 h2{
+font-family: Muli, sans-serif, Georgia, 'Times New Roman', Times, serif;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+color: #959090;
+margin: 38px 10px;
+}
+
+.detail-1 p{
+    font-family: Muli, sans-serif, Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    color: #004AB8;
+    padding-bottom: 30px;
+    margin-top: 5px;
+    margin-bottom: 48px;
+}
+
+.bt{
+    position: relative;
+    left:70px;
+    margin-top: 28px;
+    padding:10px 10px;
+    
+    
+}
+button{
+    font-family: Muli, sans-serif, Georgia, 'Times New Roman', Times, serif;
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+}
+
+ .button-success{
+    background-color: #3BB800;
+    color: #fff;
+    
+}
+
+.button-danger{
+    background-color:#B82C00;
+    color: #fff;
+}
+
+.button-edit{
+    background-color:#004AB8;
+    color: #fff;
+    
+}
+/* Sections 1-5 styling ends here */
+
+.action-button{
+    width: 201px;
+    height: 57px;
+    font-weight: 600;
+    font-size: 16.2656px;
+    line-height: 20px;
+    border-radius: 50.8301px;
+}
